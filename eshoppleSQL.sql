@@ -29,6 +29,8 @@ create table avaliacoes (
 	foreign key (produto) references produtos (codigo)
 );
 
+
+
 -- inserindo registros
 -- categorias 
 insert into categorias (nome) values ('Eletrônicos') , ('Eletrodomésticos') , ('Informática');
