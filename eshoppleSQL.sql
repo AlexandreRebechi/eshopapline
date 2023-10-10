@@ -65,7 +65,7 @@ create table usuarios (
 	telefone varchar(14)  not null, 
 	nome varchar(50) not null
 );
-
+select * from usuarios
 -- inserindo alguns registros na tabela usuários
 insert into usuarios (email, senha, tipo, telefone, nome) 
 values ('jorgebavaresco@ifsul.edu.br', '123456', 'A','(54)99984-4348','Jorge Bavaresco'), 
