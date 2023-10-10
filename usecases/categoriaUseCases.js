@@ -1,5 +1,5 @@
 const { pool } = require('../config');
-const Categoria = require('../entities/categoria');
+const Categoria = require('../entites/categoria');
 
 const getCategoriasDB = async () => {
     try {

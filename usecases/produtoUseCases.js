@@ -1,5 +1,5 @@
 const { pool } = require('../config');
-const Produto = require('../entities/produto')
+const Produto = require('../entites/produto')
 
 const getProdutosDB = async () => {
     try {    
